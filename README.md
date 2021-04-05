@@ -15,7 +15,7 @@ where <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\theta" 
   <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;Z_\theta&space;=&space;\int&space;exp(-E_\theta(x))&space;dx" target="_blank"><img    src="https://latex.codecogs.com/gif.latex?\inline&space;Z_\theta&space;=&space;\int&space;exp(-E_\theta(x))&space;dx" title="Z_\theta = \int exp(-E_\theta(x)) dx" /></a>
 </p>
 
-The benefit of this is that we can choose <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;E_\theta(x)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;E_\theta(x)" title="E_\theta(x)" /></a> in whatever way we like, without any constraints. But the downside of this is that computing for <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;Z_\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;Z_\theta" title="Z_\theta" /></a> is often intractable.
+The benefit of this is that we can choose <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;E_\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;E_\theta" title="E_\theta" /></a> in whatever way we like, without any constraints. But the downside of this is that computing for <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;Z_\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;Z_\theta" title="Z_\theta" /></a> is often intractable.
 
 # How do you train an EBM?
 The standard method for training such a model is to differentiate the log likelihood and perform gradient ascent to maximize it. For an EBM we would be computing the following:
