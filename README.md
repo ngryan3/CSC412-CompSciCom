@@ -9,7 +9,7 @@ Energy Based Model (EBM) is a form of generative model which represents a probab
   <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;p_\theta(x)=&space;\dfrac{exp(-E_\theta(x))}{Z_\theta}" target="_blank"><img          src="https://latex.codecogs.com/gif.latex?\inline&space;p_\theta(x)=&space;\dfrac{exp(-E_\theta(x))}{Z_\theta}" title="p_\theta(x)= \dfrac{exp(-E_\theta(x))}{Z_\theta}" /></a>
 </p>
 
-where $\theta$ are our parameters, $x$ is the input data, $E_\theta(x)$ is the energy function which maps each point to a scalar and $Z_\theta$ is the normalizing constant.
+where <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\theta" title="\theta" /></a> are our parameters, $x$ is the input data, $E_\theta(x)$ is the energy function which maps each point to a scalar and $Z_\theta$ is the normalizing constant.
 
 <p align="center">
   <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;Z_\theta&space;=&space;\int&space;exp(-E_\theta(x))&space;dx" target="_blank"><img    src="https://latex.codecogs.com/gif.latex?\inline&space;Z_\theta&space;=&space;\int&space;exp(-E_\theta(x))&space;dx" title="Z_\theta = \int exp(-E_\theta(x)) dx" /></a>
