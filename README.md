@@ -3,13 +3,13 @@
 - Student #: 1001533860
 
 # What is an Energy Based Model?
-Energy Based Model (EBM) is a form of generative model which represents a probability distribution over the data by associating a scalar energy which measures the compatibility between the values of the variables. Small energy values represent very compatible configurations of the variables while large energy values represent incompatible configurations of the variables. In general, the density of an EBM over a single dependent variable $x$ is:
+Energy Based Model (EBM) is a form of generative model which represents a probability distribution over the data by associating a scalar energy which measures the compatibility between the values of the variables. Small energy values represent very compatible configurations of the variables while large energy values represent incompatible configurations of the variables. In general, the density of an EBM over a single dependent variable <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;x" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;x" title="x" /></a> is:
 
 <p align="center">
   <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;p_\theta(x)=&space;\dfrac{exp(-E_\theta(x))}{Z_\theta}" target="_blank"><img          src="https://latex.codecogs.com/gif.latex?\inline&space;p_\theta(x)=&space;\dfrac{exp(-E_\theta(x))}{Z_\theta}" title="p_\theta(x)= \dfrac{exp(-E_\theta(x))}{Z_\theta}" /></a>
 </p>
 
-where <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\theta" title="\theta" /></a> are our parameters, $x$ is the input data, $E_\theta(x)$ is the energy function which maps each point to a scalar and $Z_\theta$ is the normalizing constant.
+where <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\theta" title="\theta" /></a> are our parameters, <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;x" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;x" title="x" /></a> is the input data, <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;E_\theta(x)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;E_\theta(x)" title="E_\theta(x)" /></a> is the energy function which maps each point to a scalar and <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;Z_\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;Z_\theta" title="Z_\theta" /></a> is the normalizing constant.
 
 <p align="center">
   <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;Z_\theta&space;=&space;\int&space;exp(-E_\theta(x))&space;dx" target="_blank"><img    src="https://latex.codecogs.com/gif.latex?\inline&space;Z_\theta&space;=&space;\int&space;exp(-E_\theta(x))&space;dx" title="Z_\theta = \int exp(-E_\theta(x)) dx" /></a>
