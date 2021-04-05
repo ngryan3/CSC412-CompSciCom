@@ -21,7 +21,7 @@ However, as we mentioned before $Z_\theta$ is often intractable and therefore ca
 <img src="https://bit.ly/3upN2Ou" align="center" border="0" alt="\nabla_\theta log Z_\theta \simeq -\nabla_\theta E_\theta(\tilde{x})" width="339" height="39" />
 
 where $\tilde{x} \sim p_\theta(x)$. To draw the sample, we can use a Markov Chain Monte Carlo using Langevin Dynamics. The idea is to start from a random point and slowly move toward the direction with high probability by using the gradients of $E_\theta$. The algorithm is as follows: 
-<img src="https://bit.ly/3cN7XFh" align="center" border="0" alt="\tilde{x}^{k} \leftarrow \tilde{x}^{k-1} + \eta\nabla_xE_\theta(\tilde{x}^{k-1}) + \omega" width="489" height="47" />
+[img]https://bit.ly/3cN7XFh[/img]
 
 where $\omega \sim N(0, \sigma)$ and $\tilde{x}^0$ is typically a sample from a Uniform distribution. The idea of this algorithm is from a random starting point, we slowly move towards a point of higher probability using the gradients of $E_\theta$. Ideally you would want to run this step many times until $x^k$ converges but doing this is computational expensive and is usually limitted to $K$ steps where $K$ is a hyperparameter.
 
