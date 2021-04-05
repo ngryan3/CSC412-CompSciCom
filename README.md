@@ -41,4 +41,11 @@ where <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\omega&s
 There are other training methods for EBMs such as Score Matching and Noise Contrastive Estimation which can be found [here](https://arxiv.org/pdf/2101.03288.pdf).
 
 # Why use EBMs?
-As mentioned before, an EBM is a form  of generative model which can learn about the distribution of the dataset. If the EBM is trained correctly, it has the power to produce other datasets that are similar to the distribution of the original dataset (i.e. [image generation](https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial8/Deep_Energy_Models.html)). EBM can also be used for the typical classification models where we need to find good compatibility between our variales (low energy values)
+As mentioned before, an EBM is a form  of generative model which can learn about the distribution of the dataset. If the EBM is trained correctly, it has the power to produce other datasets that are similar to the distribution of the original dataset. An example of its application in the real world is image generation, where the EBM is capable of generating high quality images and auto-complete corrupted images. EBM can also be used for the typical classification models where we need to find good compatibility between our variales (low energy values). The research paper "Your classifier is secretly an energy based model" ([link](https://arxiv.org/pdf/1912.03263.pdf)), introduces a joint energy model (JEM) as a reinterpretation of the standard discriminative classifier. In the paper they mention that the performance of generative models as a classifier is way below that of a dicriminative model and the benefit of the generative model is outweighed by its performance in this situation. But with the JEM (hybrid model), it was able to retain its strong performance of a discriminative model and have the benefits of a generative model. Hence there is huge amount of potential with EBM in the future!
+
+# References
+https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial8/Deep_Energy_Models.html
+
+https://arxiv.org/pdf/1912.03263.pdf
+
+https://arxiv.org/pdf/2101.03288.pdf
