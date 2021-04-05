@@ -2,6 +2,9 @@
 - Student Name: Ryan Ng
 - Student #: 1001533860
 
+# Sharing
+I would prefer not to share this submission
+
 # What is an Energy Based Model?
 Energy Based Model (EBM) is a form of generative model which represents a probability distribution over the data by associating a scalar energy which measures the compatibility between the values of the variables. Small energy values represent very compatible configurations of the variables while large energy values represent incompatible configurations of the variables. In general, the density of an EBM over a single dependent variable <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;x" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;x" title="x" /></a> is:
 
